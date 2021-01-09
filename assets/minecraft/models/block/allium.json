@@ -1,0 +1,64 @@
+{
+	"__comment": "Designed by KingALLO with Cubik Studio - https://cubik.studio",
+	"textures": {
+		"particle": "block/allium",
+		"texture": "block/allium"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box1",
+			"from": [ 7.5, 0, 7.5 ],
+			"to": [ 8.5, 9, 8.5 ],
+			"faces": {
+				"down": { "uv": [ 7, 15, 8, 16 ], "texture": "#texture" },
+				"up": { "uv": [ 7, 7, 8, 8 ], "texture": "#texture" },
+				"north": { "uv": [ 7, 7, 8, 16 ], "texture": "#texture" },
+				"south": { "uv": [ 7, 7, 8, 16 ], "texture": "#texture" },
+				"west": { "uv": [ 7, 7, 8, 16 ], "texture": "#texture" },
+				"east": { "uv": [ 7, 7, 8, 16 ], "texture": "#texture" }
+			}
+		},
+		{
+			"__comment": "Box2",
+			"from": [ 5.5, 9, 5.5 ],
+			"to": [ 10.5, 14, 10.5 ],
+			"faces": {
+				"down": { "uv": [ 5, 3, 9, 7 ], "texture": "#texture" },
+				"up": { "uv": [ 9, 3, 5, 7 ], "texture": "#texture" },
+				"north": { "uv": [ 9, 7, 5, 3 ], "texture": "#texture" },
+				"south": { "uv": [ 9, 3, 5, 7 ], "texture": "#texture" },
+				"west": { "uv": [ 9, 3, 5, 7 ], "texture": "#texture" },
+				"east": { "uv": [ 9, 7, 5, 3 ], "texture": "#texture" }
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation":  [ 0, 0.0006, 0.6956 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"thirdperson_lefthand": {
+			"translation":  [ 0, 0, 0.6956 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"firstperson_righthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"firstperson_lefthand": {
+			"rotation":  [ 0, 45, 0 ],
+			"scale":  [ 0.4, 0.4, 0.4 ]
+		},
+		"gui": {
+			"rotation":  [ 30, 225, 0 ],
+			"scale":  [ 0.625, 0.625, 0.625 ]
+		},
+		"ground": {
+			"translation":  [ 0, 2, 0 ],
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		},
+		"fixed": {
+			"scale":  [ 0.5, 0.5, 0.5 ]
+		}
+	}
+}
